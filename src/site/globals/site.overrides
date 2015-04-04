@@ -1,0 +1,12 @@
+/*
+ * ¤hover-to-show
+ */
+
+.ui.hover-to-show .hover {
+  visibility: hidden;
+}
+
+.ui.hover-to-show:hover .hover,
+.ui.hover-to-show .hover.active {
+  visibility: visible;
+}

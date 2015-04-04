@@ -1,0 +1,93 @@
+/*
+.ui.basic.buttons .button,
+.ui.basic.button {
+  border-radius: none;
+  box-shadow: none;
+}
+.ui.basic.buttons {
+  box-shadow: none;
+  border-radius: none;
+}
+
+.ui.basic.buttons .button:hover,
+.ui.basic.button:hover {
+  box-shadow: none;
+}
+.ui.basic.buttons .button:active,
+.ui.basic.button:active {
+  box-shadow: none;
+}
+.ui.basic.buttons .active.button,
+.ui.basic.active.button {
+  box-shadow: none !important;
+}
+
+.ui.basic.blue.buttons .button,
+.ui.basic.blue.button {
+  box-shadow: none !important;
+}
+.ui.basic.blue.buttons .button:hover,
+.ui.basic.blue.button:hover {
+  box-shadow: none !important;
+}
+.ui.basic.blue.buttons .button:active,
+.ui.basic.blue.button:active {
+  box-shadow: none !important;
+}
+.ui.basic.blue.buttons .active.button,
+.ui.basic.blue.active.button {
+  box-shadow: none !important;
+}
+*/
+
+/* Text */
+
+.ui.text.button {
+  background-color: transparent;
+}
+
+.ui.text.button:hover {
+  background-color: transparent;
+}
+
+.ui.text.button:focus {
+  background-color: transparent;
+  box-shadow: none !important;
+}
+
+.ui.text.button:active {
+  background-color: transparent;
+}
+
+.ui.active.text.button {
+  background-color: transparent;
+}
+
+.ui.active.text.button:hover {
+  background-color: transparent;
+}
+
+.ui.active.text.button:active {
+  background-color: transparent;
+}
+
+/* Green */
+
+.ui.text.green.buttons .button,
+.ui.text.green.button {
+  color: @green;
+}
+.ui.text.green.buttons .button:hover,
+.ui.text.green.button:hover {
+  color: darken(@green, 20%);
+}
+.ui.text.green.buttons .button:active,
+.ui.text.green.button:active {
+  color: darken(@green, 20%);
+}
+.ui.text.green.buttons .active.button,
+.ui.text.green.buttons .active.button:active,
+.ui.text.green.active.button,
+.ui.text.green.button .active.button:active {
+  color: darken(@green, 20%);
+}
